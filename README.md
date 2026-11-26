@@ -1,16 +1,24 @@
-## Hi there 👋
+# Olá, sou o Elcio 👋
 
-<!--
-**ElcioCestari/ElcioCestari** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Desenvolvedor **Backend Java** (com experiência fullstack em Angular/TypeScript), de Campo Grande - MS.
+Gosto de sistemas distribuídos: microsserviços, mensageria, resiliência e consistência entre serviços.
 
-Here are some ideas to get you started:
+🔎 **Buscando nova oportunidade** como Desenvolvedor Backend Sênior — remoto ou híbrido.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Stack
+**Backend:** Java 21, Spring Boot, Spring Data JPA, Flyway
+**Mensageria e dados:** RabbitMQ, PostgreSQL, MongoDB, Redis
+**Testes:** JUnit, Testcontainers
+**Infra:** Docker, Docker Compose, GitHub Actions, Azure DevOps
+**Frontend:** Angular, TypeScript
+**Estudando agora:** Azure e desenvolvimento com IA
+
+## 🚀 Projeto em destaque
+**[checkout-plataform](https://github.com/ElcioCestari/checkout-plataform)**: plataforma de checkout de assinaturas com BFF + 3 microsserviços.
+- Idempotência para evitar cobrança duplicada
+- Transactional outbox + RabbitMQ para reconciliar pagamentos perdidos por timeout
+- Circuit breaker, timeouts e rate limit no BFF
+- Um banco por serviço, testes com Testcontainers e tudo sobe com um `docker compose up`
+
+## 📫 Contato
+[LinkedIn](https://www.linkedin.com/in/elcio-cestari-taira) · elciotaira@gmail.com
